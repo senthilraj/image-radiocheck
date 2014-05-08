@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7 May, 2014, 6:11:25 PM
+    Author     : Ananth
+*/
+
+* {
+margin : 0;
+padding : 0;
+}
+body {
+padding-top : 40px;
+}
+.container {
+margin : 0 auto;
+width : 980px;
+}
+label {
+float : left;
+margin-right : 40px;
+}
+.radio {
+float : left;
+position : relative;
+width : 19px;
+height : 19px;
+}
+.radio input[type="radio"] {
+position : absolute;
+top : 0;
+left : 0;
+z-index : -1;
+width : 19px;
+height : 19px;
+}
+.radio .radio-img {
+position : absolute;
+background : url('../img/radio_btn.png');
+background-position : 0 -1px;
+width : 19px;
+height : 19px;
+top : 0;
+left : 0;
+z-index : 1;
+}
+.check {
+float : left;
+position : relative;
+width : 18px;
+height : 18px;
+}
+.check input[type="radio"] {
+position : absolute;
+top : 0;
+left : 0;
+z-index : -1;
+width : 18px;
+height : 18px;
+}
+.check .check-img {
+position : absolute;
+background : url('../img/checkbox.png');
+background-position : -1px -1px;
+width : 18px;
+height : 18px;
+top : 0;
+left : 0;
+z-index : 1;
+}
